@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=PT+Serif&family=Rubik+Scribble&family=Sevillana&family=Single+Day&display=swap');
+body {
+    background-image: linear-gradient(to left,#00568F,#003559);
+    font-family: sans-serif;
+    margin: auto;
+    width: 870px;
+}
+main {
+    margin: auto;
+    width: 870px;
+    height: 900px;
+}
+.primeiro {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Lugrasimo, Rubik, Scribble, Sevillana, Single, Day;
+    text-align: justify;
+    text-align: center;
+    text-indent: 20px;
+}
+.primeiro > h2 {
+    font-family: serif;
+}
+.segundo {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Lugrasimo, Rubik, Scribble, Sevillana, Single, Day;
+    text-align: justify;
+    text-align: center;
+    text-indent: 20px;
+}
+.segundo > h2 {
+    font-family: serif;
+}
+h1 {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: serif;
+    text-align: justify;
+    text-align: center;
+    text-shadow: 2px 2px 5px #D5F9DE;
+    text-indent: 20px;
+}h1:hover {
+    background-color: #003559;
+    color: white;
+    display: block;
+}
+.primeiro > h1 {
+    text-decoration: underline;
+    text-indent: 20px;
+}
+.segundo > h1 {
+    text-decoration: underline;
+    text-indent: 20px;
+}
+a {
+    font-size: 20px;
+    color: white;
+}
+a:hover {
+    color: aquamarine;
+}

@@ -1,0 +1,19 @@
+@charset "UtTF-8";
+body{
+background-color: rgb(255, 243, 229);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+}
+h1{
+background-color: white;
+color: black;
+}
+h2{
+    background-color: white;
+color: black;
+}
+p{
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: justify;
+}

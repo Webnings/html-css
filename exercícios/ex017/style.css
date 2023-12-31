@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body {background-image: linear-gradient(to left,rgb(89, 89, 244),rgb(33, 33, 230));
+}
+main {
+    background-color: white;
+margin: auto;
+width: 650px;
+height: 750px;
+padding: 15px;
+border-radius: 15px;
+text-align: center;
+text-align: justify;
+box-shadow: 3px 3px 3px rgb(81, 14, 120);
+}
+h1, h2 {
+font-family: serif;
+text-align: justify;
+text-align: center;
+text-shadow: 1px 1px 1px lightcoral;
+}
