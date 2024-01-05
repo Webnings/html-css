@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 700px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption {
+            font-size: 1.5em;
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        thead {
+            height: 80px;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+
+        }
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+        th, td {
+            border: 1px solid black;
+            height: 40px;
+        }
+        th {
+            background-color: grey;
+            color: white;
+        }
+        td {
+            padding: 8px;
+            text-align: right;
+        }
+        tfoot {
+            background-color: gray;
+            color: white;
+            font-weight: bolder;
+        }
+        p {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabelas grandes</h1>
+    <h2>Habitantes entre as cinco cidades mais populares da Noruega</h2>
+    <table>
+        <caption>População nas cidades mais populosas da Noruega</caption>
+        <thead>
+            <th scope="col">posição</th>
+            <th scope="col">localidade</th>
+            <th scope="col">condado</th>
+            <th scope="col">população</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Oslo</td>
+                <td>Oslo</td>
+                <td>830.380</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bergen</td>
+                <td>Bestland</td>
+                <td>215.761</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Trondheim</td>
+                <td>Trondelag</td>
+                <td>176.802</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Stavanger</td>
+                <td>Rogaland</td>
+                <td>149.762</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Fredrikstad-Sarpsborg</td>
+                <td>Viken(condado)</td>
+                <td>97.117</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de habitantes</th>
+            <td>1.469.822 habitantes</td>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero a cum, asperiores facere placeat culpa quo, doloribus et ratione tenetur nostrum reprehenderit exercitationem? Autem pariatur sapiente nobis error consequuntur qui! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro ut necessitatibus eligendi quisquam nisi praesentium quo voluptate repellendus et at, deserunt dicta ipsam iure delectus asperiores odio repellat officia iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, distinctio nemo cupiditate error aut obcaecati doloremque vitae neque dolorem harum temporibus. Voluptatum culpa incidunt harum blanditiis officia quisquam nobis maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus libero harum labore praesentium veritatis debitis iusto nobis, voluptas laboriosam nulla, alias repellendus exercitationem rem pariatur molestiae natus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos exercitationem, sapiente cupiditate sed numquam iusto nobis eaque sequi recusandae modi accusantium, fugiat consequatur beatae ipsum reprehenderit! Aperiam enim delectus deleniti. lo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quod illo laborum dignissimos magni exercitationem! Nemo, repudiandae alias magni recusandae aliquam consectetur quasi soluta explicabo perferendis hic minus saepe odit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum voluptas dolorum accusamus fuga laboriosam error perspiciatis, quas natus omnis saepe aspernatur impedit quibusdam quia odit cumque laborum pariatur iste! Earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium assumenda cum culpa, rem consequatur sint repellat, eum non perspiciatis optio necessitatibus excepturi a, pariatur incidunt repellendus omnis veritatis officiis veniam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae at ratione iste unde dicta adipisci eveniet optio perferendis? In nulla pariatur distinctio ipsam. Necessitatibus suscipit ab, saepe esse dolores praesentium?
+    </p>
+</body>
+</html>
