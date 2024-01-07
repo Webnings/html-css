@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.name {
+            background-color: lightgray;
+        }
+        col.last {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>k ké coisa</h1>
+
+    <table>
+        <colgroup>
+            <col class="name">
+            <col class="gener">
+            <col class="last" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Gener</th>
+            <th scope="col">Age</th>
+            <th scope="col">Profission</th>
+        </tr>
+        <tr>
+            <td>Monica</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Cooker</td>
+        </tr>
+        <tr>
+            <td>Ross</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Paleontolic</td>
+        </tr>
+        <tr>
+            <td>Rachel</td>
+            <td>F</td>
+            <td>26</td>
+            <td>dont remember</td>
+        </tr>
+        <tr>
+            <td>Joey</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Jornalist</td>
+        </tr>
+        <tr>
+            <td>Chandler</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Jornalist</td>
+        </tr>
+        <tr>
+            <td>Phibie</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Jornalist</td>
+        </tr>
+    </table>
+</body>
+</html>
